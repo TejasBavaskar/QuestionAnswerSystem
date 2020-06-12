@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>INQUISITOR  | Home </title>
+<link href="./css/style1.css" rel="stylesheet">
+
+<style type="text/css">
+			
+* {
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				font-family: Calibri, sans-serif;
+			}
+            
+        /*    .content-section {
+                width: 50%;
+                margin: 0 auto;
+                padding: 15% 0;
+            }
+            .content-section h1 {
+                text-transform: uppercase;
+                margin-bottom: 15px;
+            }
+            .content-section p {
+                font-size: 1.2em;
+                color: #333;
+            }
+            */
+            .video-section {
+                position: relative;
+                width: 100%;
+                max-height: 400px;
+                overflow: hidden;
+            }
+            #video-elem {
+                width: 100%;
+            }
+            video::-webkit-media-controls {
+                display:none !important;
+            }
+            .video-overlay {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background-color: rgba(255, 255, 255, 0.8);
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
+            .video-overlay:hover {
+                opacity: 1;
+            }
+            .video-overlay h1 {
+                position: absolute;
+                left: 50%;
+                top: 30%;
+                transform: translateX(-50%) translateY(-50%);
+                text-transform: uppercase;
+                font-size: 3em;
+                color: #000;
+                text-align: center;
+            }
+
+            .video-overlay p{
+
+            					position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                text-transform: uppercase;
+                font-size: 1.5em;
+                color: #000;
+                text-align: center;
+
+
+            }
+            
+ 
+
+
+		</style>
+
+</head>
+
+<body>
+
+		
+
+<header>
+		<div class="container">
+		<div id="branding">
+		<h1><span class="highlight">INQUISITOR</span> | QA Fourm</h1>
+		</div>	
+			<nav>
+				<ul>
+					<li class="current"><a href="index.html">Home</a> </li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+</header>
+
+	<section id="showcase">
+	<div class="fullscreen-bg">
+    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+        <source src="./Video/Video Background HD - Technology HD - Style Proshow - styleproshow.org.mp4" type="video/mp4">
+        
+    </video>
+</div>
+		<div class="container-video">
+		<h1>INQUISITOR</h1>
+		<p>A community question answer fourm that helps people to drive their question and get solution with peer</p>	
+		</div>
+	</section>
+
+	<section id="boxes">
+		<div class="container">
+			<div class="box">
+				<a href="../../System_cQA/WebContent/index.jsp">
+				<img src="./ImageData/Higher-Studies-Logo.png">
+				</a>
+				<h3>Higher Education<h3>
+			</div>
+			<div class="box">
+			<a href="index1.jsp">
+			<img src="./ImageData/java.png">
+			</a>
+				<h3>Programming Language<h3>
+			</div>
+			<div class="box">
+			<a href="car.html">
+			<img src="./ImageData/Roadside-Assistance-logo.jpg">
+			</a>
+				<h3>In-Cars Assistance<h3>
+			</div>
+		</div>
+	</section>
+
+<div class="team-section">
+
+		<h1>OUR TEAM</h1>
+
+		<div class="ps">
+			<a href="#p1"><img src="./ImageData/Sunny.jpg" alt=""></a>
+			<a href="#p2"><img src="./ImageData/Tejas.jpg" alt=""></a>
+			<a href="#p3"><img src="./ImageData/Sourabh.jpg" alt=""></a>
+			<a href="#p4"><img src="./ImageData/Akash.jpg" alt=""></a>
+			
+		</div>
+			
+
+		<div class="team1-section" id="p1">
+		<span class="name">Sunny Shah</span>
+		<span class="border"> </span>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.	
+			</p>
+
+
+		</div>
+
+
+		<div class="team1-section" id="p2">
+		<span class="name">Tejas Bavaskar</span>
+		<span class="border"> </span>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+
+
+		</div>
+
+
+		<div class="team1-section" id="p3">
+		<span class="name">Sourabh Ukhale</span>
+		<span class="border"> </span>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 	
+			</p>
+
+
+		</div>
+
+
+		<div class="team1-section" id="p4">
+		<span class="name">Akash Kalyankar</span>
+		<span class="border"> </span>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+			</p>
+
+
+		</div>
+
+
+
+		</div>
+
+	<div class="video-section">
+		<video id="video-elem" preload="auto" autoplay="true" loop="loop" muted="muted" poster="./ImageData/Bannertyping.gif">
+			<source src="./Video/4k background footage (ideal for Blockchain Website).mp4" type="video/mp4">
+			Video Not Supported
+
+		</video>
+		
+			<div class="video-overlay">
+				<h1>Our Proposed System</h1>
+				<p>Every so often there is a chance to make a difference. To undertake a project, which against all odds, makes a technology of the future an achievement of today  </p>
+			</div>
+
+	</div>
+
+
+	
+
+
+
+	<div class="content-section">
+		<h1>Video As A Background</h1>
+		<p>Every so often there is a chance to make a difference. To undertake a project, which against all odds, makes a technology of the future an achievement of today</p>
+	</div>
+
+	<footer>
+		<p>Inquisitor QA System, Copyright &copy; 2017-2018</p>
+	</footer>
+
+</body>
+</body>
+
+</html>

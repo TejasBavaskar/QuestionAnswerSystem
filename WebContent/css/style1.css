@@ -1,0 +1,368 @@
+body{
+
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0; 
+	background-color: #f4f4f4
+
+}
+
+/*global*/
+	.container{
+
+				width: 80%;
+				margin: auto;
+				overflow: hidden;
+
+	}
+
+
+
+	header ul{
+
+				margin: 0;
+				padding: 0; 
+
+	}
+
+	/*header*/
+
+	header{
+
+			background: #35424a;
+			color: #ffffff;
+			padding-top: 30px;
+			min-height: 70px;
+			border-bottom: #e8491d 3px solid;
+
+	}
+
+	header a{
+
+				color: #ffffff;
+				text-decoration: none;
+				text-transform: uppercase;
+				font-size: 16px
+
+
+	}
+
+	
+
+	header li{
+
+				float: left;
+				display: inline;
+				padding: 0 20px 0 20px;
+
+
+
+	}
+
+	header #branding{
+
+						float: left;
+
+	}
+
+	header #branding h1{
+
+						margin: 0;
+
+
+
+	}
+
+
+header nav{
+
+	float: right;
+	margin-top: 10px;
+
+}
+
+	header .highlight, header .current a{
+
+
+		color: #e8491d;
+		font-weight: bold;
+
+	}
+
+	header a:hover{
+					color: #cccccc;
+					font-weight: bold;
+
+
+	}
+
+	.container-video h1{
+
+			position: absolute;
+                left: 50%;
+                top: 35%;
+                transform: translateX(-50%) translateY(-50%);
+                text-transform: uppercase;
+                font-size: 5em;
+                color: #ffffff;
+                text-align: center;
+
+
+	}
+
+	.container-video p{
+							position: absolute;
+			                left: 50%;
+			                top: 50%;
+			                transform: translateX(-50%) translateY(-50%);
+			                font-size: 1em;
+			                color: #ffffff;
+			                
+	}
+
+
+	/* SHOWCASE*/
+
+	#showcase{
+
+min-height: 400px;
+background: url('../Video/Video Background HD - Technology HD - Style Proshow - styleproshow.org.mp4');
+
+text-align: center;
+color: #ffffff;
+
+	}
+
+	#showcasw h1{
+margin-top: 100px;
+font-size: 80px;
+margin-bottom: 10px
+
+
+
+	}
+
+
+	#showcase p{
+
+		font-size: 20px;
+
+
+	}
+
+	.fullscreen-bg {
+
+
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    width: 100%;
+
+
+}
+
+.fullscreen-bg__video {
+
+	background-color: black;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+}
+
+
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+
+    width: 100%;
+    height: 70%;
+  }
+}
+
+/*@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+
+ /* BOXES*/
+
+
+ #boxes{
+
+margin-top: 40px;
+margin-bottom: 25px;
+
+ }
+
+ #boxes .box{
+
+float: left;
+width: 30%;
+text-align: center;
+padding: 10px;
+
+
+ }
+
+ #boxes .box img{
+
+ 	width: 125px;
+ }
+
+#boxes .box1{
+
+float: left;
+width: 30%;
+text-align: center;
+padding: 10px;
+
+}
+
+#boxes .box1 img{
+
+ 	width: 175px;
+ }
+
+ #boxes .box2{
+
+float: left;
+width: 30%;
+text-align: center;
+padding: 10px;
+
+}
+
+#boxes .box2 img{
+
+ 	width: 150px;
+ }
+
+
+
+
+ * {
+				margin: 0;
+				padding: 0;
+				font-family: sans-serif;
+			}
+
+.team-section{
+
+				overflow: hidden;
+				text-align: center;
+				background-image: url('../Images/ourteamBAck.jpg');
+				padding: 60px;
+
+
+
+}
+
+
+.team-section h1{
+
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	color: white;
+	font-size: 40px;
+
+
+}
+
+
+.border{
+
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 3px;
+	background: #3498db;
+	margin-bottom: 40px;
+
+
+}
+
+
+.ps{
+
+
+margin-bottom: 40px;
+
+
+}
+
+.ps a{
+
+
+	display: inline-block;
+	margin: 0 30px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.ps a img{
+
+	width: 100%;
+	filter: grayscale(100%);
+	transition: 0.4s all;
+
+}
+
+.ps a:hover > img{
+
+		filter: none;
+
+}
+
+.team1-section{
+
+overflow: hidden;
+width: 600px;
+margin: auto;
+font-size: 20px;
+color: white;
+text-align: justify;
+height: 0;
+
+
+}
+
+.team1-section:target{
+
+top: 100px;	
+height: auto;
+
+}
+
+.name{
+
+	display: block;
+	margin-bottom: center;
+	text-align: center;
+	text-transform: uppercase;
+
+
+}
+
+
+
+
+ footer{
+
+ 	padding: 20px;
+ 	margin-top: 20px;
+ 	color: #ffffff;
+ 	background-color: #35424a;
+ 	text-align:center;
+
+ }
